@@ -1,5 +1,7 @@
 # WooCommerce mostrar productos en categorías
 
+![Image of screenshot](https://github.com/DesarrolloWebyTutoriales/tutorialDeElementor/blob/master/demostracion.jpg)
+
 Instrucciones:
 
 1. Copiar lo que esta dentro de la carpeta css.
