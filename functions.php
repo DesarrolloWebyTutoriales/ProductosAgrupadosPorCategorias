@@ -4,8 +4,7 @@
 	function add_yourtheme_css_js() 
 	{
 
-	    wp_register_style( 'style', get_stylesheet_directory_uri() . '/style.css', array(), '1.1', 'all' );
-
+		wp_register_style( 'style', get_stylesheet_directory_uri() . '/style.css', array(), '1.1', 'all' );
 		wp_register_style( 'font-awesome-min', get_stylesheet_directory_uri() . '/css/fontawesome.css', array(), '5.12.0', 'all' );
 		wp_register_style( 'brands-min', get_stylesheet_directory_uri() . '/css/brands.css', array(), '5.12.0', 'all' );
 		wp_register_style( 'solid-min', get_stylesheet_directory_uri() . '/css/solid.css', array(), '5.12.0', 'all' );
@@ -14,10 +13,10 @@
 		wp_register_style( 'owl-carousel-min', get_stylesheet_directory_uri() . '/css/owl.carousel.min.css', array(), '2.3.4', 'all' );
 		wp_register_style( 'owl-theme-default-min', get_stylesheet_directory_uri() . '/css/owl.theme.default.min.css', array(), '2.3.4', 'all' );
 
-    	wp_register_script( 'owl-carousel-js', get_template_directory_uri().'/js/owl.carousel.min.js', '', '', true );
-    	wp_register_script( 'app-js', get_template_directory_uri().'/js/app.js', '', '', true );   
+		wp_register_script( 'owl-carousel-js', get_template_directory_uri().'/js/owl.carousel.min.js', '', '', true );
+		wp_register_script( 'app-js', get_template_directory_uri().'/js/app.js', '', '', true );   
 
-    	// css
+		// css
 		wp_enqueue_style('style');
 		wp_enqueue_style('font-awesome-min');
 		wp_enqueue_style('brands-min');
@@ -26,8 +25,8 @@
 		wp_enqueue_style('owl-theme-default-min');
 
 		// js
-	    wp_enqueue_script('owl-carousel-js');
-	    wp_enqueue_script('app-js');
+		wp_enqueue_script('owl-carousel-js');
+		wp_enqueue_script('app-js');
 
 	}
 	add_action( 'wp_enqueue_scripts', 'add_yourtheme_css_js' );	
