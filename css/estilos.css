@@ -1,0 +1,81 @@
+section#cuerpo .productos__loop{
+  max-width: 100%;
+  margin: 0 auto 35px 0;
+  padding-top: 25px;
+  padding-bottom: 0;
+  width: 1280px;
+  height: auto;
+  padding: 0;   
+}
+section#cuerpo .productos__loop:last-child{
+  margin-bottom: 0;
+}
+section#cuerpo .productos__loop h4{
+  background-color: #003F87;
+  color: #fff;
+  font-family: 'aller_lightregular';
+  font-size: 30px;
+  font-weight: 600;
+  padding: 10px;
+  width: 40%;   
+}
+section#cuerpo .productos__loop h4 a{
+  color: #fff;
+}
+section#cuerpo .productos__loop .products{
+  height: auto;  
+}
+section#cuerpo .productos__loop .products img{
+  height: auto;
+  max-width: 100%;
+}
+section#cuerpo .productos__loop .products h2{
+  color: #000;
+  font-family: 'aller_lightregular';
+  font-size: 15px;
+  font-weight: 600;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  text-align: center;
+  text-transform: lowercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 15px 0 10px 0;  
+}
+section#cuerpo .productos__loop .products .button {
+  background: #2C9742;
+  color: #fff;
+  font-family: 'aller_lightregular';
+  font-size: 15px;
+  display: block;
+  margin: 1em auto 0 auto;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -o-transition: .5s;
+  -ms-transition: .5s;    
+  text-align: center;
+}
+section#cuerpo .productos__loop .products .button:hover {
+  background: #003F87;
+}
+
+section#cuerpo .productos__loop .products a img {
+  height: auto;
+}
+section#cuerpo .productos__loop .products h2:hover {
+    color: #2C9742;
+}
+section#cuerpo .productos__loop .products h2:first-letter {
+  text-transform: uppercase;        /* Make the first letters uppercase      */
+}
+section#cuerpo .productos__loop .products h3 {
+    color: #2C9742;
+    font-family: 'aller_lightregular';
+    margin: 0 0 20px 0;
+    text-align: center;    
+}
