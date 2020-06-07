@@ -1,6 +1,6 @@
 # WooCommerce mostrar productos en categorías
 
-![Image of screenshot](https://github.com/DesarrolloWebyTutoriales/tutorialDeElementor/blob/master/demostracion.jpg)
+![Image of screenshot](https://github.com/DesarrolloWebyTutoriales/ProductosAgrupadosPorCategorias/blob/master/demostracion.jpg)
 
 Instrucciones:
 
