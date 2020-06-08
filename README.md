@@ -1,4 +1,4 @@
-# WooCommerce mostrar productos en categorías
+# WooCommerce mostrar productos agrupados en categorías
 
 ![Image of screenshot](https://github.com/DesarrolloWebyTutoriales/ProductosAgrupadosPorCategorias/blob/master/demostracion.jpg)
 
